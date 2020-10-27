@@ -80,10 +80,21 @@ for (int i = 1;i <= x-1;i++) {
 	}
 
 }
+void star1() {
+	for (int i = 1;i <= 122;i++) {
+		if (i % 2 == 0) {
+			printf(" ");
+		}
+		else {
+			printf("*");
+		}
+	}
+
+}
 int main() {
 	star();
 	printf("\n");
-	printf("go go go!!!");
+	star1();
 	return 0;
 
 }
