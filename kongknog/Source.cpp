@@ -82,6 +82,8 @@ for (int i = 1;i <= x-1;i++) {
 }
 int main() {
 	star();
+	printf("\n");
+	printf("go go go!!!");
 	return 0;
 
 }
